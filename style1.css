@@ -14,8 +14,8 @@ h1 {
 form {
     width: 30rem;
     margin: 1rem auto;
-    background-color: white;
-    border: 1px solid white;
+    background-color: rgb(231, 237, 246);
+    border: 1px solid rgb(231, 237, 246);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     border-radius: 6px;
     padding: 2rem;
@@ -38,14 +38,35 @@ input {
     display: block;
     width: 100%;
     height: 1.5rem;
-    margin: 0.1rem 0 0.5rem 0;
+    margin-bottom: 1rem;
+    font: inherit;
     border: 1px solid black;
     border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    font: inherit;
 }
 
 input:focus {
     background-color: rgb(1, 66, 130);
     color: white;
+}
+
+.terms {
+    display: flex;
+}
+
+.terms input {
+    width: auto;
+    margin: 0;
+}
+
+.terms label {
+    margin: 0.2rem;
+    margin-left: 0.5rem;
 }
 
 button {
