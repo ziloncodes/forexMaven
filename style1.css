@@ -88,3 +88,12 @@ button:hover {
 .btn {
     text-align: center;
 }
+
+#signin {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#signin a {
+    color: rgb(1, 66, 130);
+}
